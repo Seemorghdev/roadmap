@@ -2,7 +2,7 @@
 
 What my projects have shown, what I'm working on, and the questions they leave open.
 
-**Board:** BOARD_URL
+**Board:** https://github.com/users/Seemorghdev/projects/2
 
 ## Three words
 
