@@ -13,12 +13,12 @@ for url in \
   https://mehridian.tech/projects/small-object-detection \
   https://mehridian.tech/projects/seemorgh-operator-console \
   https://mehridian.tech/projects/edge-evidence \
-  https://mehridian.tech/research/project03; do
+  https://mehridian.tech/research/project03/; do
   curl -sS -L -o /dev/null -w '%{http_code} %{url_effective}\n' "$url"
 done
 ```
 
-Expected: four final `200` responses. Project 03 currently redirects to its slash-terminated route.
+Expected: four final `200` responses.
 
 ## Tests
 
@@ -41,7 +41,7 @@ This is the evidence index for [Mehridian](https://mehridian.tech). The public b
 | Small Objects in Big Frames | Perception | https://mehridian.tech/projects/small-object-detection |
 | Seemorgh operator console | Sensor fusion | https://mehridian.tech/projects/seemorgh-operator-console |
 | Edge Evidence | Data integrity | https://mehridian.tech/projects/edge-evidence |
-| Project 03 | Engineering audit | https://mehridian.tech/research/project03 |
+| Project 03 | Engineering audit | https://mehridian.tech/research/project03/ |
 | Linguistic Pipeline | Language | Overview coming |
 
 ### How items change
